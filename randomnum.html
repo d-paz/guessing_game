@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="gamestyle.css">
+    <meta charset="utf-8">
+    <title>Random Number Guessing Game</title>
+</head>
+
+<body>
+    <h1>Random Number Guessing Game</h1>
+    <p>Guess the number between 0 and 100!</p>
+
+    <div class="gameForm">
+        <label for="guessField">Enter your guess:</label><input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Guess!" class="guessSubmit">
+    </div>
+
+    <div class="results" style="visibility:hidden">
+        <p class="numberOfGuesses"></p>
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+    <script src="gamescript.js"></script>
+</body>
+</html>
