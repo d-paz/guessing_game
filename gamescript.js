@@ -22,6 +22,15 @@ var results = document.querySelector('.results');
 var guessCount = 1;
 var resetButton;
 
+//Pressing enter will now submit the user's guess
+var enterPress = document.getElementById("guessField");
+enterPress.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("guessSubmit").click();
+    }
+});
+
 function checkGuess() {
     numberOfGuesses.textContent = 'Number of guesses: ' + guessCount;
     var userGuess = Number(guessField.value);
