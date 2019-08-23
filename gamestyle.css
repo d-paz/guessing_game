@@ -1,0 +1,69 @@
+html {
+    background-color: lightslategray;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1.5px 1px black;
+    padding: 1%;
+    padding-bottom: 0px;
+}
+
+body {
+    text-align: center;
+}
+
+.gameForm{
+    padding-top: 40px;
+}
+
+h1 + p{
+    font-size: .9em;
+}
+
+input.guessField{
+    border-radius: 4px;
+    text-align: center;
+}
+
+input.guessSubmit{
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    background-color:teal;
+    border-color:teal;
+    padding: 1em;
+}
+
+.guesses{
+    background-color: slateblue;
+}
+
+.numberOfGuesses{
+    font-size: .9em;
+    font-variant-caps: all-small-caps;
+}
+
+.results{
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #22121d;
+    background: rgba(66, 36, 48, 0.836);
+    width: 30%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: .50%;
+}
+
+div.results button{
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    background-color:teal;
+    border-color:teal;
+    padding: 1em;
+}
